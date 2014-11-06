@@ -1,0 +1,30 @@
+	body
+	{
+		text-align: center;
+	}
+
+	label,input,p
+	{
+		font-size: 2em;
+		margin: 0 auto;
+		margin-top: .3em;
+	}
+	
+	input
+	{
+		display: block;
+		text-align: center;
+	}
+
+	input[type='submit']
+	{
+		background-color: #2C9BCB;
+		border-radius: 2em;
+		color: white;
+		border: 0.2em dashed #11658D;
+	}
+
+	input[type='submit']:focus
+	{
+		border: 0.2em dashed #11658D;
+	}

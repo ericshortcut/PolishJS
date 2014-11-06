@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Equation Processing</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+<script type="text/javascript" src="polishToReverse.js"></script>
+<form onsubmit="return false;">
+	<label for="expression">
+		Insert a mathematical expression [Ex: "(1+2)/2*1"]
+	</label>
+	<input type="text" name="expression" id="expression" placeholder="(1+2)/2*1">
+	<input type="submit" value="Show Result" >
+	<p id="result">Result: ...</p>
+</form>
+<script type="text/javascript" src="Polish.js"></script>
+<script type="text/javascript" src="test.js"></script>
+</body>
+</html>
